@@ -1,4 +1,9 @@
+require_relative 'db_connection'
+require_relative 'searchable'
+
+
 class SQLObject
+  extend Searchable
 
   def self.columns
     results = DBConnection.execute2(<<-SQL)
@@ -32,7 +37,7 @@ class SQLObject
   def self.table_name
     @table_name || self.to_s.tableize
   end
-  
+
   def self.all
     results = DBConnection.execute(<<-SQL)
       SELECT
