@@ -1,7 +1,10 @@
-require_relative 'db_connection'
 require 'active_support/inflector'
+require_relative 'db_connection'
 require_relative 'searchable'
-
+require_relative 'associatable'
+require_relative 'assoc_options'
+require_relative 'belongs_to_options'
+require_relative 'has_many_options'
 
 class SQLObject
   extend Searchable

@@ -1,3 +1,5 @@
+require 'active_support/inflector'
+
 class HasManyOptions < AssocOptions
   def initialize(name, self_class_name, options = {})
     @foreign_key = options[:foreign_key] || "#{self_class_name.to_s.downcase}_id".to_sym
