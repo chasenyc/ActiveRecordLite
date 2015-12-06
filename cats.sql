@@ -30,7 +30,7 @@ INSERT INTO
 VALUES
   (1, "Alex", "Harris", 1),
   (2, "Jenn", "Diclemente", 1),
-  (3, "Loveless", "Man", 2),
+  (3, "Cody", "Pizzaia", 2),
   (4, "Homeless", "Hobo", NULL);
 
 INSERT INTO
