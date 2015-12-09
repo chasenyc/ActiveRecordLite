@@ -88,7 +88,7 @@ class SQLObject
     attributes.values
   end
 
-  def create
+  def insert
     cols = get_sql_insert_columns
     q_marks = get_sql_insert_q_marks(cols.count)
 
