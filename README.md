@@ -13,4 +13,4 @@ ActiveRecordLite is an ORM that maps SQLite queries onto Ruby objects. Active Re
 * SQLObject::has_one_through
 * SQLObject#create
 * SQLObject#update
-* SQLObject#save
+* SQLObject#insert
