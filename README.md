@@ -1,5 +1,5 @@
 # Active Record Lite
-ActiveRecordLite is an ORM that maps SQLite queries onto Ruby objects allowing for the chaining of queries with ease. Active Record Lite was created using Ruby and utilizing the db_connection.rb to communicate with the database.
+ActiveRecordLite is an ORM that maps SQLite queries onto Ruby objects. Active Record Lite was created using Ruby and utilizing the db_connection.rb to communicate with the database.
 
 ### Available Methods:
 
